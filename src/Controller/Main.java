@@ -24,20 +24,20 @@ public class Main {
         // Initialize a driver object
         sqlite = new SQLite();
 
-//        // Create a database
-//        sqlite.createNewDatabase();
-//        
-//        // Drop users table if needed
-//        sqlite.dropHistoryTable();
-//        sqlite.dropLogsTable();
-//        sqlite.dropProductTable();
-//        sqlite.dropUserTable();
-//        
-//        // Create users table if not exist
-//        sqlite.createHistoryTable();
-//        sqlite.createLogsTable();
-//        sqlite.createProductTable();
-//        sqlite.createUserTable();
+        // Create a database
+        sqlite.createNewDatabase();
+
+        // Drop users table if needed
+        sqlite.dropHistoryTable();
+        sqlite.dropLogsTable();
+        sqlite.dropProductTable();
+        sqlite.dropUserTable();
+
+        // Create users table if not exist
+        sqlite.createHistoryTable();
+        sqlite.createLogsTable();
+        sqlite.createProductTable();
+        sqlite.createUserTable();
 //        
 //        // Add sample history
 //        sqlite.addHistory("admin", "Antivirus", 1, "2019-04-03 14:30:00.000");
